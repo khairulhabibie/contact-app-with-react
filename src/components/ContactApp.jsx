@@ -7,25 +7,6 @@ import RegisterPage from '../pages/RegisterPage';
 import LoginPage from '../pages/LoginPage';
 import { getUserLogged, putAccessToken } from '../utils/api';
 
-
-// function ContactApp() {
-//   return (
-//     <div className="contact-app">
-//       <header className='contact-app__header'>
-//         <h1>Aplikasi Kontak</h1>
-//         <Navigation />
-//       </header>
-//       <main>
-//         <Routes>
-//           <Route path="/" element={<HomePage />} />
-//           <Route path="/add" element={<AddPage />} />
-//         </Routes>
-//       </main>
-//     </div>
-//   );
-// }
-
-
 class ContactApp extends React.Component {
   constructor(props) {
     super(props)
